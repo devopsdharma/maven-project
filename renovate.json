@@ -1,0 +1,17 @@
+{
+  "extends": ["config:recommended"],
+  "dependencyDashboard": true,
+  "prConcurrentLimit": 5,
+
+  "packageRules": [
+    {
+      "matchManagers": ["maven"],
+      "matchUpdateTypes": ["patch"],
+      "automerge": true
+    },
+    {
+      "matchPackagePatterns": ["^org.springframework"],
+      "groupName": "Spring dependencies"
+    }
+  ]
+}
