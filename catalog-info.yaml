@@ -3,14 +3,9 @@ kind: Component
 metadata:
   name: maven-project
   description: Sample multi-module Maven project
-  tags:
-    - java
-    - maven
-    - backend
-  links:
-    - url: https://github.com/devopsdharma/maven-project
-      title: GitHub Repo
-      icon: github
+  annotations:
+    github.com/project-slug: devopsdharma/maven-project
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   lifecycle: experimental
