@@ -1,0 +1,17 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: maven-project
+  description: Sample multi-module Maven project
+  tags:
+    - java
+    - maven
+    - backend
+  links:
+    - url: https://github.com/devopsdharma/maven-project
+      title: GitHub Repo
+      icon: github
+spec:
+  type: service
+  lifecycle: experimental
+  owner: team-devops
