@@ -3,7 +3,7 @@
   extends: [
     'config:best-practices',
     ':semanticCommitTypeAll(fix)',
-    'github>secustor/backstage-renovate-config',
+    'github>secustor/backstage-renovate-config:self-hosted.json5',
   ],
 
   // add a Renovate label for renovate-changesets workflow
