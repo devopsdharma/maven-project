@@ -5,6 +5,14 @@ metadata:
   annotations:
     github.com/project-slug: devopsdharma/maven-project
     backstage.io/techdocs-ref: dir:.
+  links:
+    # Direct visibility of Renovate outputs (no plugin required)
+    - url: https://github.com/devopsdharma/maven-project/issues?q=is:issue+Renovate
+      title: Renovate Dependency Dashboard
+      icon: dashboard
+    - url: https://github.com/devopsdharma/maven-project/pulls?q=is:pr+Renovate
+      title: Renovate Pull Requests
+      icon: github
 spec:
   type: other
   lifecycle: unknown
