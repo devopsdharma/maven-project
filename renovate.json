@@ -1,5 +1,6 @@
 {
   "extends": ["config:recommended"],
+  "extends": ["github>secustor/backstage-renovate-config:self-hosted.json5"]
   "dependencyDashboard": true,
   "prConcurrentLimit": 5,
 
