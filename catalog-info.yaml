@@ -4,6 +4,7 @@ metadata:
   name: maven-project
   annotations:
     github.com/project-slug: devopsdharma/maven-project
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: other
   lifecycle: unknown
